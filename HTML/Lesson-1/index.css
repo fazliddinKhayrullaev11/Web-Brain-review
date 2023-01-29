@@ -9,9 +9,33 @@
 body{
    background-color: aliceblue;
 }
+.link1{
+    color: chartreuse;
+    text-decoration:none ;
+    cursor: pointer;
+    animation-name: link;
+    animation-duration: 4s;
+}
+.link1:hover{
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: 20px;
+}
+.link1:active{
+    background-color: red;
+    font-size: 30px;
+    font-weight: 20px;
+}
+@keyframes link {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
 .title{
     
-    color: chartreuse;
+
+    outline: none;
+    text-decoration: none;
+    border: none;
 
     margin: 100px;
 
@@ -25,4 +49,26 @@ body{
 .star{
     background-color: yellow;
     margin-top: 5px;
+}
+.ani{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: ani;
+    animation-duration: 20s;
+    animation-delay: 3s;
+   
+
+}
+
+@keyframes ani{
+    from{ 
+        width: 200px;
+        height: 200px;
+    }
+    to{ 
+        width: 100px;
+        height: 100px;
+    }
 }
