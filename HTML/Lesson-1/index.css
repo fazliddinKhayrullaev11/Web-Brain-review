@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+body{
+   background-color: aliceblue;
+}
+.title{
+    
+    color: chartreuse;
+
+    margin: 100px;
+
+}
+.stars{
+
+    margin: 100px;
+  
+
+}
+.star{
+    background-color: yellow;
+    margin-top: 5px;
+}
