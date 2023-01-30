@@ -1,0 +1,18 @@
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+ margin-left: 20px;
+}
+
+
+table{
+    border: 1px solid yellow;
+    width: 400px;
+    height: 200px;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid red;
+    padding: 15px;
+}

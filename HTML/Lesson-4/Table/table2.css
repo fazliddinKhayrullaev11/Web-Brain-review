@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.table1{
+    margin: 100px;
+    width: 500px;
+    height: 200px;
+}
+td,th{
+    padding: 15px;
+}
+.table2{
+    border: 1px solid red;
+    border-collapse: collapse;
+    margin: 100px;
+
+}
+th,td{
+    border: 1px solid red;
+    padding: 15px;
+}
+th{
+    background-color: gray;
+}
