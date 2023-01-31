@@ -16,6 +16,7 @@ table{
 th,td{
     border: 1px solid blue;
     padding: 5px;
+    white-space: collapse;
 
 }
 a{
