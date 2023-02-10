@@ -1,0 +1,33 @@
+
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    animation: anime 10s infinite ;
+}
+
+@keyframes anime {
+
+     25%{
+        position: relative;
+        top: 10px;
+        left: 600px;
+     }
+     50%{
+        position: relative;
+        top: 600px;
+        left: 600px;
+     }
+     75%{
+        position: relative;
+        top: 600px;
+        left: 50px;
+
+     }
+     100%{
+        position: relative;
+        top: 50px;
+        left: 50px;
+     }
+}
