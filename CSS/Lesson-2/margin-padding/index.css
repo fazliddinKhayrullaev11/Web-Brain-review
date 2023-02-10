@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    padding: 150px;
+    margin: 200px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: brown;
+    padding: 100px;
+    border-top: 5px solid green;
+    border-bottom: 10px solid white;
+    border-left: 10px dashed  black;
+    border-right: 5px dotted coral;
+}
+
+/* Border */
+/* border=> 3ta qiymat oladi qalingi turi rangi */
+/* turi => double , solid , dashed , none , hidden */
+/* border-width, border-style, border-color */
+/* border-radius -50% bolsa aylana qilib beradi */
