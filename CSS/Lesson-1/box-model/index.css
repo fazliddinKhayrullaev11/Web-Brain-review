@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    padding: 80px;
+    margin: 100px;
+    animation: animation 10s infinite;
+}
+
+@keyframes animation {
+    from{
+        position: relative;
+        left: 50px;
+        top: 50px;
+    }
+    to{
+        position: relative;
+        left: 500px;
+        top: 50px;
+        background-color: green;
+        padding: 200px;
+    }
+    
+}
