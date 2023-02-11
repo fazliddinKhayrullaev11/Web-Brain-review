@@ -1,0 +1,21 @@
+
+
+ html{
+font-size: 50px;
+ }
+
+.em-p{
+    font-size: 50px;
+}
+.rem{
+    font-size: 3rem;
+
+}
+
+.em{
+    font-size: 3em;
+}
+
+
+/* rem - html tagia nisbatan qiymat oladi va hmtl defaul 16px lik qiymatida boladi */
+/* em -eng yaqin urab turvchisi , parentiga nisbatan qiymat oladi ,agar urab turuvchi parenti bolmasa  , html default qiymatini oladi  */
