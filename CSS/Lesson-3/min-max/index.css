@@ -1,0 +1,29 @@
+
+
+
+.w{
+    background-color: red;
+    height: 150px;
+    width: 1024px;
+    font-size: 20px;
+}
+
+.max-w{
+    height: 150px;
+    max-width: 1024px;
+    font-size: 20px;
+    background-color: red;
+}
+
+
+.min-w{
+    background-color: red;
+    font-size: 20px;
+    height: 150px;
+    min-width: 1024px;
+}
+
+
+/* width=>fixed qiymat , ekranga moslashmaydi va scroll paydo qiladi */
+/* max-width=>berilgan qiymatdan oshmaydi , kamayishi mumkin , va scroll paydo qilmaydi , ekranga moslashuvchan */
+/* min-width=> berilgan qiymatdan kamaymaydi , scoll paydo qiladi va 100% width egallab oladi */

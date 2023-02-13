@@ -1,0 +1,26 @@
+
+
+.box{
+
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+    color:  white;
+    /* display: block; */
+    display: inline-block;
+    /* padding: 200px; */
+
+}
+
+
+
+
+
+/* background-size:cover= ekranni toliq qamaram oladi */
+/* background-repeat:no-repeat => rasm takrorlangan holatini yoq qiladi */
+/* background-attachment = rasmni qotirib beradi */
+
+/* display:block = > block elemtga oxshab iwlaydi */
+/* display-inline=> inline ga oxshab  yonma-yon joylashadi lekin width va height olmaydi va margin -paddingda ham muammo boladi */
+/* display:inline-block => inline ga oxshab yonma -yon joylashadi va width -height  oladi , margin -padding da ham muammo bolmaydi*/

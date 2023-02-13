@@ -17,5 +17,12 @@ font-size: 50px;
 }
 
 
+
+
 /* rem - html tagia nisbatan qiymat oladi va hmtl defaul 16px lik qiymatida boladi */
 /* em -eng yaqin urab turvchisi , parentiga nisbatan qiymat oladi ,agar urab turuvchi parenti bolmasa  , html default qiymatini oladi  */
+/* text-shadow = 4ta qiymat oladi va box-shadow bilan bir xil */
+
+/* line height- textni qatorlari o'rtasidagi masofa */
+/* letter-spacing = harflar orasidagi masofa */
+/* word-spacing =>so'zlar orasidagi masofa */
