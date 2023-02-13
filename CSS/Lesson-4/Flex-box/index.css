@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex-box {
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    padding: 20px;
+     justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+}
+
+.flex-item{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    color: white;
+    font-size: 40px;
+
+    
+}
+
+/* flex-wrap :wrap => kontentlarimiz bitta line ga sigmay qolsa keyingi qatorga ham utqizib beradi */
+
+/* Flex-wrap:nowrap => kontentlarimizni bitta qatorga solib beradi */
