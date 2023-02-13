@@ -11,7 +11,7 @@
     color: white;
     background: linear-gradient(to top right, yellow,  red,green ,blue, grey);
     font-size: 2rem;
-  animation-name: linear;
+    animation-name: linear;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
 animation-direction: normal;
