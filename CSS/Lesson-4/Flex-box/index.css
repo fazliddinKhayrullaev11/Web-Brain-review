@@ -7,18 +7,22 @@
 .flex-box {
     width: 100%;
     height: 100vh;
-    background-color: yellow;
+    background-image: url(./amaz2.jpg);
+    background-size: 100% 100%RE3
+    NU;
     display: flex;
     padding: 20px;
-     justify-content: space-evenly;
-    flex-wrap: nowrap;
+     justify-content: space-around;
+
+     align-items:flex-start;
+    flex-wrap: wrap;
 
 }
 
 .flex-item{
     background-color: blue;
-    width: 500px;
-    height: 500px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
