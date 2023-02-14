@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img{
+    width: 199.48px;
+    height: 39.22px;
+}
+.navbar-items{
+    display: flex;
+
+}
+.navbar-item{
+margin-left: 50px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: -0.468947px;
+
+color: #696871;
+cursor: pointer;
+}
+ .navbar-item:hover{
+    color: #19191B;
+
+
+ }
+ 
+.navbar-item1{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: -0.468947px;
+    
+    color: #19191B;
+    }
+    .blur{
+      width: 41px;
+      height: 2px;
+      background: #5454D4;
+      margin-top: 10px;
+       
+    }
+
+    .navbar-button{
+    background: #FF7143;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+
+    color: #FFFFFF;
+    width: 211px;
+    height: 60px;
+    cursor: pointer;
+
+    }
