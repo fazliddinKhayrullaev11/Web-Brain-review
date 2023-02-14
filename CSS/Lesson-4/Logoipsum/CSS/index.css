@@ -84,6 +84,11 @@ cursor: pointer;
     cursor: pointer;
 
     }
+    .navbar-button:hover{
+    background: #e4430d;
+
+
+    }
 
 
     /* Hero Section */
@@ -189,4 +194,169 @@ cursor: pointer;
     /* Subscribtion Section  */
     .subscribtion{
         margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    .sub-img img{
+        height: 473px;
+        width: 348.5px;
+        border-radius: 0px;
+
+    }
+
+    .sub-info{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    .sub-title{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 57px;
+        /* identical to box height, or 114% */
+        
+        letter-spacing: -1.56316px;
+        
+        color: #19191B; 
+    }
+
+    .sub-para{
+        
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+margin-top: 30px;
+
+letter-spacing: -0.625263px;
+
+color: #696871;
+    }
+
+    .learn-more{
+    
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+letter-spacing: -0.531474px;
+
+color: #5454D4;
+margin-top: 30px;
+cursor: pointer;
+  
+    }
+
+    .learn-more:hover{
+        color: #181878;
+
+    }
+
+    /* In-depth Section Styles */
+
+    .in-depth{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+.in-depth__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 158px;
+}
+
+.in-depth__title{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 57px;
+/* identical to box height, or 114% */
+
+letter-spacing: -1.56316px;
+
+color: #19191B;
+}
+.in-depth__desc{
+ margin-top: 30px;
+    
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+letter-spacing: -0.625263px;
+
+color: #696871;
+
+}
+
+
+/* Cards */
+
+.cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.card img{
+    height: 64px;
+    width: 114px;
+    border-radius: 0px;
+     
+}
+
+.card-title{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: -0.750316px;
+
+color: #19191B;
+margin-top: 7px;
+
+}
+
+.card-des{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    letter-spacing: -0.500211px;
+    
+    color: #696871;
+    margin-top: 20px;
+}
+
