@@ -19,14 +19,23 @@
     width: 200px;
     height: 200px;
     background-color: red;
+    flex-grow: 3;
 }
 .item-2{
     width: 200px;
     height: 200px;
     background-color: green;
+    flex-grow: 1;
 }
 .item-3{
     width: 200px;
     height: 200px;
     background-color: pink;
+    flex-grow: 2;
 }
+
+/* 1920/6=320 */
+
+/* 320*3 =960px box1 */
+/* 320*1=320px box2 */
+/*320*640px box3 */
