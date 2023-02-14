@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeon+Sung&display=swap');
 
+/* Navbar Section Styles */
 
 .navbar{
     display: flex;
@@ -21,7 +23,7 @@
 
 }
 .navbar-item{
-margin-left: 50px;
+margin: 0 25px;
 font-family: 'DM Sans';
 font-style: normal;
 font-weight: 700;
@@ -47,6 +49,8 @@ cursor: pointer;
     font-size: 15px;
     line-height: 20px;
     /* identical to box height */
+    margin: 0 25px;
+
     
     letter-spacing: -0.468947px;
     
@@ -79,4 +83,110 @@ cursor: pointer;
     height: 60px;
     cursor: pointer;
 
+    }
+
+
+    /* Hero Section */
+
+
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .hero-title{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 77px;
+/* or 96% */
+
+letter-spacing: -2.50105px;
+
+color: #19191B;
+margin-bottom: 30px;
+    }
+
+    .hero-description{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+letter-spacing: -0.625263px;
+
+color: #696871;
+
+    }
+
+    .hero-footer{
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+   
+    }
+
+
+    .hero-icon{
+        background: url(../images/Oval.svg);
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .hero-button{
+  width: 211px;
+  height: 60px;
+  background: #5454D4;
+  border-radius: 10px;
+  
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.531474px;
+
+color: #FFFFFF;
+outline: none;
+text-decoration: none;
+border: none;
+cursor: pointer;
+
+
+
+    }
+
+    .hero-button:hover{
+        background-color: #5656b2;
+    }
+
+    /*    Logos Section Styles */
+
+    .logos{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .logo{
+        width: 126.72px;
+        height:29.54px;
+    }
+
+    /* Subscribtion Section  */
+    .subscribtion{
+        margin-top: 100px;
     }
