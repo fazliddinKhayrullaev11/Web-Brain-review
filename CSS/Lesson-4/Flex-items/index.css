@@ -26,6 +26,7 @@
     height: 200px;
     background-color: green;
     flex-grow: 1;
+  
 }
 .item-3{
     width: 200px;
@@ -46,3 +47,5 @@
 /* Flex-basis=width bilan bir xil */
 /* Flex-grow =qolib ketgan joyni taqsimlab oladi */
 /* flex-direction:column holatida flex-grow iwlamaydi */
+/* align-self= flex itemni uzini centerga olib kelib  beradi */
+/* Flex-shrink=>flex-growning teskarisi */
