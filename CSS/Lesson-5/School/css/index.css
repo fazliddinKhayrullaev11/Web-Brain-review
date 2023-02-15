@@ -294,4 +294,123 @@ color: #FFFFFF;
 /* Lessons Section */
 .lessons{
     margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.lesson-title{
+margin-bottom: 100px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+
+color: #000000;
+}
+.lesson-cards{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap:wrap;
+    
+    margin:0 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 100px;
+    column-gap: 50px;
+    
+}
+.lesson-card{
+
+/* margin-top: 150px; */
+
+width: 301px;
+height: 530px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+background: #5855E7;
+box-shadow: 0px 0px 35px rgba(17, 17, 17, 0.25);
+border-radius: 15px;
+}
+.lesson-card img{
+    /* margin:0 19px; */
+    border-radius: 10px;
+}
+
+.card-title{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+
+color: #FAFBFD;
+margin-top: 6px;
+}
+
+.card-subtitle{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    margin-top: 9px;
+    
+
+}
+
+.card-desc{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+margin-top: 10px;
+}
+
+
+.card-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 147px;
+    height: 32px;
+    border: none;
+    text-decoration: none;
+
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+/* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #6347EB;
+
+
+   display: flex;
+   align-items: center;
+   margin-top: 10px;
+
+   color: #6347EB;
+
+}
+
+
+
