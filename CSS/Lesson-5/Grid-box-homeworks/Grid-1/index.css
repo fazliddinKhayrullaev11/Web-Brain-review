@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 1000px;
+    height: 700px;
+    /* border: 1px solid ; */
+    margin: 200px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 3fr 5fr 4fr;
+    grid-template-rows: 2fr 5fr 3fr 4fr 2fr;
+    grid-template-areas: 
+    "header header header header"
+    "nav  upConLeft upConCen upConRight"
+    "nav  middCon  middCon  middCon "
+    "nav  lowerCon lowerCon lowerCon"
+    "stickyFol  stickyFol  stickyFol  stickyFol"
+    
+    
+    ;
+
+
+}
+
+.header{
+    background-color: grey;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    grid-area: header;
+    
+}
+
+
+.nav{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: nav;
+}
+
+.upper-content__left{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: upConLeft;
+}
+
+.upper-content__center{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: upConCen;
+
+}
+
+.upper-content__right{
+    background-color: rgb(79, 73, 73);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: upConRight;
+
+}
+
+.middle-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    grid-area: middCon;
+}
+
+.lower-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    grid-area: lowerCon;
+
+}
+
+.sticky-folder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    grid-area: stickyFol;
+
+}
