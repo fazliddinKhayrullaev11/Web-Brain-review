@@ -55,5 +55,159 @@ color: #FFFFFF;
  align-items: center;
  border: none;
  text-decoration: none;
+ transition: all 1s;
  
+}
+.navbar-button:hover{
+    background-color: grey;
+}
+
+/* Header Section */
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  
+}
+
+.header-title span{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+
+color: #5855E7;
+
+}
+
+.header-title{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #000000;
+}
+
+.header-desc{
+
+ font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+margin-top: 50px;
+}
+.header-buttons{
+    display: flex;
+    margin-top: 50px;
+    
+
+}
+
+.header-button1{
+
+width: 220px;
+height: 58px;
+transition: all 1s;
+
+
+background: #6347EB;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Gilroy';
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+border: none;
+text-decoration: none;
+
+
+}
+.header-button1:hover{
+    background-color: #090782;
+}
+
+.header-button2{
+ width: 239px;
+height: 58px;
+margin-left: 30px;
+transition: ease-in-out 1s;
+
+
+border: 3px solid #6347EB;
+border-radius: 10px;
+font-family: 'Gilroy';
+font-size: 32px;
+line-height: 38px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+color: #000000;
+}
+.header-button2:hover{
+    background-color: #6456ab;
+}
+
+/* About us Section */
+.about-us{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 150px;
+}
+
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.about-title{
+    
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+
+color: #000000;
+}
+
+.about-desc{
+    
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+
+
+/* Advantages  Section */
+.advantages{
+    margin-top: 150px;
+
 }
