@@ -1,0 +1,35 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position:absolute;
+    top: 50%;
+  
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+}
+
+
+
+
+/* Position */
+/* Absolute- content ni windowni ustki qismida chiqarib beradi */
+/* properties=>top,left,right,botttom */
+/* tranforms:translate=> markazga olib keladi */
+/* Relative ==> parent ga nisbatan joylashadi va  katta px dan bizni qutqaradi */
+/* Static -default - */
+
+

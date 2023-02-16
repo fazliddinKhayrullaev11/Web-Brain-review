@@ -417,8 +417,74 @@ margin-top: 10px;
 
 
 .connect{
-    margin-top: 150px;
 
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+}
+
+.connect-items{
+margin: 150px;
+height: 734px;
+width: 1100px;
+background:#090782;
+border-radius: 10px;
+display: flex;
+
+}
+
+.connect-card{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+.connect-card__info-title{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+margin: 50px;
+
+color: #FFFFFF;
+
+
+}
+
+.connect-card__info-data span{
+width: 20px;
+height: 20px;
+
+background: #A23AC1;
+border-radius: 1px;
+}
+.connect-card__info-data{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+margin: 40px;
+
+}
+
+.connect-card img{
+margin-left: 50px;
+width: 485px;
+height: 338px;
 }
 
 
