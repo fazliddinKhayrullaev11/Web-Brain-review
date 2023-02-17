@@ -36,8 +36,39 @@ div>h1{
 .box:hover h2{
     display: none;
 }
-.box:active,
-.box:hover
- h1{
+.box:active h1{
     display: block;
 }
+
+
+
+
+
+input{
+    margin: 200px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input:focus{
+    border: 1px solid red;
+}
+
+p::first-letter{
+    font-size: 35px;
+    color: red;
+}
+
+::selection{
+    background-color: aqua;
+}
+/* Active=> mishkani bosib turganda iwlaydi */
+/* hover=> miska borganda iwlaydi */
+/* focus=> inputlarda ishlaydi va bir marta bosib turganda keyin tawqariga chiqsa ham focus qilib turadi */
+/* selection=> ektsni copy qilmoqchi bolsak style berish */

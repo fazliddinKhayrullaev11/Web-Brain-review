@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: ease-in-out 2s;
+}
+
+.container:hover{
+    /* transform: rotate(-30deg); */
+    /* transform:scaleX(2); */
+    /* transform: skew3d(30deg 30deg 30deg); */
+    /* transform-origin: top right; */
+    /* transform: translate(100px); */
+    transform: matrix(0.1, 1, -0.3, 1, 0, 0);
+}
+
+
+/* Rotate=> belgilangan gradusda qiyalatadi */
+/* scale => default holati 1 boladi va berilgan qiymatdagi marta kattalashtirib beradi */
+/* skew =>3d */
