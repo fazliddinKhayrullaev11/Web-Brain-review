@@ -33,3 +33,17 @@
 /* Rotate=> belgilangan gradusda qiyalatadi */
 /* scale => default holati 1 boladi va berilgan qiymatdagi marta kattalashtirib beradi */
 /* skew =>3d */
+
+/* nth:child()  nechinchi childga ta'sir qilish kerakligini target qilib beradi */
+
+
+ul{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 35px;
+}
