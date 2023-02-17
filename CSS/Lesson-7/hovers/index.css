@@ -1,0 +1,43 @@
+
+
+
+.box{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 200px;
+    color: white;
+    font-size: 25px;
+    transition: ease-in-out 2s;
+    padding: 20px;
+}
+
+.box:hover{
+    background-color: green;
+    color: red;
+    font-size: 30px;
+    transform: scale(3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #db9797;
+}
+
+div>h1{
+    display: none;
+}
+
+.box:hover h2{
+    display: none;
+}
+.box:active,
+.box:hover
+ h1{
+    display: block;
+}
