@@ -16,7 +16,20 @@
     padding: 20px;
     position: sticky;
     top: 0;
+    z-index: 778;
 }
+
+.item1{
+width: 200px;
+height: 200px;
+background-color: red;
+position: absolute;
+top: 200px;
+left: 300px;
+z-index:1 ;
+}
+
+
 
 
 /* /* sticky => ekranni oldiga chiqadi va orqasiga hech nima otkazmaydi * */

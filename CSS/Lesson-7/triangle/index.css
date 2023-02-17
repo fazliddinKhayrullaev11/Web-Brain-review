@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+.triangle{
+    margin: 300px;
+    width: 0;
+    height: 0;
+    border-top: 250px solid red;
+    border-right: 250px solid green;
+    border-left: 250px solid grey ;
+    border-bottom: 50px solid blue;
+}
