@@ -94,3 +94,129 @@ outline: none;
 
 }
 
+/* Header-main */
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-main{
+    margin-top: 100px;
+
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.header-description-items{
+    display: flex;
+    /* padding: 15px; */
+}
+
+.header-subtitle{
+    /* Heading/H5 Regular */
+    margin-bottom: 70px;
+    margin-left: 25px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+letter-spacing: 0.005em;
+
+/* Light/Text Link Color/White */
+
+color: #FFFFFF;
+}
+.header-title{
+    margin-left: 25px;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 62px;
+line-height: 120%;
+/* or 74px */
+
+letter-spacing: 0.003em;
+
+/* Light/Text Link Color/White */
+
+color: #FFFFFF;
+}
+.header-description-item{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.header-description-item h1{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+letter-spacing: 0.005em;
+
+/* Light/Text Link Color/White */
+
+color: #FFFFFF;
+}
+.span{
+    color: #FA3C45;
+    
+}
+
+.header-button{
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 24px;
+gap: 10px;
+
+width: 128px;
+height: 56px;
+
+
+/* Light/Primary Color/70% */
+
+background: #FA3C45;
+border-radius: 8px;
+/* Menu/Menu 1 Bold */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+text-align: center;
+letter-spacing: 0.005em;
+
+/* Light/Text Link Color/White */
+
+color: #FFFFFF;
+border: none;
+text-decoration: none;
+margin-top: 50px;
+margin-left: 25px;
+transition: all 2s linear;
+
+}
+.header-button:hover{
+    transform: scale(1.2);
+}
+/* Select Section */
+.select{
+    margin-top: 200px;
+}

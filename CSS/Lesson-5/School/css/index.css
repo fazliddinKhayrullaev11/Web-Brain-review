@@ -700,3 +700,18 @@ margin-bottom: 20px;
     width: 32px;
     height: 32px;
 }
+
+/* Responsive Section */
+
+
+/* 1250 */
+@media screen and(max-width:1250px) {
+    
+ .navbar{
+    width: 75%;
+ }
+ .navbar-item{
+    font-size: 10px;
+ }
+    
+}
