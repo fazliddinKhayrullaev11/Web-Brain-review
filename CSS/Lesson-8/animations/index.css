@@ -26,12 +26,10 @@ div{
 
 div:hover{
     background-color: green;
-    width: 600px;
-    height: 600px;
+  transform: scale(2);
 }
 
 div>h1:hover::after{
-   
     content: 'Fuck You!!!';
     color: blue;
     font-family: cursive;
@@ -40,8 +38,20 @@ div>h1:hover::after{
     justify-content: center;
     align-items: center;
     letter-spacing: 5px;
-
-
-
 }
+
+
+
+
+
+
+
+
+/* transition-delay=> tranistion ni nech sekunddan keyin  boshlamishi  */
+/* transition-timing-function=> qanaqa tezlikka boshlanib qachon   */
+/* linear=>default, bir tekis */
+/* ease-in-out=>sekin-tez-sekin */
+/* ease-out=>tez-sekin */
+/* cubic-beziee=>uzimiz control qilamiz */
+
 
