@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.box{
+    margin: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes anime {
+
+    from{
+        background-color: red;
+        transform: rotate(0deg);
+    }
+
+    to{
+        background-color: coral;
+        transform: rotate(360deg);
+
+    }
+    
+}
