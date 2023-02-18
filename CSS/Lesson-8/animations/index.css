@@ -1,0 +1,47 @@
+
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+div{
+    margin: 300px;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-radius: 50%;
+    transition: all 2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+
+}
+
+
+div:hover{
+    background-color: green;
+    width: 600px;
+    height: 600px;
+}
+
+div>h1:hover::after{
+   
+    content: 'Fuck You!!!';
+    color: blue;
+    font-family: cursive;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+
+
+
+}
+
