@@ -1119,7 +1119,7 @@ color: #808080;
 .popularity-main{
     display: flex;
     gap: 40px;
-    margin-top: 58px;
+    margin-top: 30px;
 }
 
 
@@ -1226,3 +1226,135 @@ color: #92929D;
 
 
 }
+
+
+/* Download */
+
+
+.download{
+    display: flex;
+    justify-content: center;
+}
+
+.download-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+}
+.download-info__title{
+    
+/* Heading/H2 Bold */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+letter-spacing: 0.005em;
+
+/* Light/Text Color/Title */
+
+color: #11142D;
+
+}
+
+.download-info__desc{
+
+
+ /* Body/Body 1 Regular */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+letter-spacing: 0.005em;
+
+/* Light/Text Color/Body 1 */
+
+color: #92929D;
+}
+
+.download-items{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+
+}
+
+.download-item{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+}
+
+.download-item i{
+    color: #C5010A;
+    font-size: 30px;
+}
+.download-item h1{
+    /* Heading/H6 Bold */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+letter-spacing: 0.005em;
+
+/* Light/Text Color/Title */
+
+color: #11142D;
+}
+
+.download-buttons{
+    display: flex;
+    gap: 40px;
+}
+.download-button-1{
+height: 60px;
+width: 202.5px;
+left: 0px;
+top: 0px;
+border-radius: 5px;
+border: 0.2px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+}
+.download-button-1 h3{
+    font-size: 15px;
+    margin-right: 10x;
+}
+
+.download-button-2{
+    height: 60px;
+    width: 202.5px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    
+    }
+    .download-button-2 h2{
+        font-size: 14px;
+        margin-right: 44px;
+    }
