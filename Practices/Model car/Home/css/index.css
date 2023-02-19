@@ -4,6 +4,9 @@
     box-sizing: border-box;
 
 }
+body{
+    background-color: #ffffffe5
+}
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeon+Sung&display=swap');
 
 /* Header Section Styles */
@@ -841,3 +844,196 @@ color: #11142D;
     align-items: center;
     gap: 100px;
 }
+
+/* New-items */
+.new-items{
+    width: 100%;
+    background-color: #e7e7f2;
+    padding: 100px 104px;
+}
+.new-items-cards{
+    display: grid;
+     height: 943px;
+     gap: 30px;
+     row-gap: 30px;
+     grid-template-columns: 4fr 2fr 2fr;
+     grid-template-rows: 2fr 2fr;
+     grid-template-areas: 
+     " item-1  item-2 item-3 "
+     " item-1  item-4 item-5 ";
+
+
+
+}
+
+.new-items-card-1{
+     
+    grid-area: item-1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+    border-radius: 6px;
+    display: flex;
+    transition: all 2s ease-in-out;
+
+    
+}
+.new-items-card-1:hover{
+    transform: scale(1.07);
+}
+.new-items-card-1 .new-items-card__info{
+    display: flex;
+    flex-direction: column;
+     align-self: flex-end;
+     justify-self: center;
+     bottom: 0;
+     margin-left: 170px;
+     row-gap: 8px;
+}
+.new-items-card-2{
+    grid-area: item-2;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+
+    display: flex;
+    transition: all 2s ease-in-out;
+
+}
+.new-items-card-2:hover{
+    transform: scale(1.07);
+}
+.new-items-card-3{
+    grid-area: item-3;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+
+    display: flex;
+    transition: all 2s ease-in-out;
+
+}
+.new-items-card-3:hover{
+    transform: scale(1.07);
+}
+.new-items-card-4{
+    grid-area: item-4;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+
+    display: flex;
+    transition: all 2s ease-in-out;
+
+}
+.new-items-card-4:hover{
+    transform: scale(1.07);
+}
+.new-items-card-5{
+    grid-area: item-5;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+
+    display: flex;
+    transition: all 2s ease-out;
+
+}
+
+.new-items-card-5:hover{
+    transform: scale(1.07);
+}
+
+
+.news-box{
+position: relative;
+top: 16px;
+left: 16px;
+/* width: 16px;
+height: 16px; */
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+
+
+height: 24px;
+width: 48px;
+/* Light/Primary Color/10% */
+background: #F6F7FB;
+border-radius: 6px;
+/* Body/Body 2 Semibold */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+/* identical to box height, or 18px */
+
+text-align: center;
+letter-spacing: 0.008em;
+
+/* Light/Primary Color/70% */
+
+color: #FA3C45;
+}
+
+.new-items-card__info{
+    display: flex;
+    flex-direction: column;
+     align-self: flex-end;
+     justify-self: center;
+
+     margin: 20px 40px;
+}
+
+.new-items-card__info h1{
+    /* Heading/H3 Bold */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 39px;
+line-height: 120%;
+/* identical to box height, or 47px */
+
+text-align: center;
+letter-spacing: 0.005em;
+
+/* Light/Text Link Color/White */
+
+color: #FFFFFF;
+}
+
+.new-items-card__info h4{
+  /* Heading/H6 Bold */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+/* identical to box height, or 19px */
+
+text-align: center;
+letter-spacing: 0.005em;
+
+/* Light/Text Link Color/White */
+
+color: #FFFFFF;
+
+
+
+}
+
+.new-items-card__info h2{
+    /* Heading/H4 Bold */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 31px;
+line-height: 120%;
+/* identical to box height, or 37px */
+
+text-align: center;
+letter-spacing: 0.005em;
+
+/* Light/Primary Color/70% */
+
+color: #FA3C45;
+}
+
+
+
