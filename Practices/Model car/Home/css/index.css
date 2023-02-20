@@ -19,6 +19,7 @@ body{
     background: linear-gradient(89.96deg, #000000 0.04%, rgba(255, 255, 255, 0) 99.97%);
 }
 .navbar{
+    background: linear-gradient(89.96deg, #000000 0.04%, rgba(255, 255, 255, 0) 99.97%);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,7 +27,7 @@ body{
     position: sticky;
     top: 0;
     left: 10px;
-    z-index: 999;
+    /* z-index: 999; */
 }
 
 .navbar-log{
