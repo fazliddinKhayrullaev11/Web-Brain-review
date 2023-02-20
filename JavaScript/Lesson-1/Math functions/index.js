@@ -46,6 +46,22 @@
 
 // Numbers Methods
 
+
+
+
+
+//  + integer qilib beradi , Number.parseIntdan tezroq ishlaydi 
+// let son='11';
+// console.log(typeof +son); returns number
+
+// tofixed = kasr qismidan son oli  beradi va string type ga ugiradi
+// let son=10.232;
+// console.log(typeof  Number.parseInt(son.toFixed(1)));
+
+// typeof=>checks the data type,
+// let son=10;
+// console.log(typeof(son)); returns number
+
 // Number.parseInt=> butun qismini olib beradi va integerga utkazib beradi;
 // let son='12-1;
 // console.log(Number.parseInt(son)); returns 11 
