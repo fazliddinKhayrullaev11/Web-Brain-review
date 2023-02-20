@@ -42,6 +42,28 @@
 // Math operators
 
 
+// Decrement
+// let son =5;
+
+// son--;
+// son--;
+// son--;
+// son--;
+// console.log(son); returns 1
+
+
+
+
+
+
+//  ++ increments
+// let son=10;
+
+// son++;
+// son++;
+// son++;
+// son++;
+// console.log(son); returns 14
 
 // **(1/2)=finding the root
 // console.log(Math.round(64**(1/3))); returns 4
