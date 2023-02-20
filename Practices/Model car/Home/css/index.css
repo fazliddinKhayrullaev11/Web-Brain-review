@@ -12,7 +12,7 @@ body{
 /* Header Section Styles */
 
 .header{
-    
+    position: relative;
     width: 1440px;
     height: 681px;
     
@@ -24,6 +24,9 @@ body{
     align-items: center;
     padding: 15px;
     position: sticky;
+    top: 0;
+    left: 10px;
+    z-index: 999;
 }
 
 .navbar-log{
