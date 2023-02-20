@@ -1358,3 +1358,195 @@ padding: 10px;
         font-size: 14px;
         margin-right: 44px;
     }
+
+    /* Subscribe Section */
+
+    .subscribe{
+        margin: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .subscribe-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    .subscribe-header h1{
+ /* Heading/H2 Bold */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+text-align: center;
+letter-spacing: 0.005em;
+
+/* Light/Text Color/Title */
+
+color: #11142D;
+    }
+
+    .subscribe-header h3{
+        
+/* Body/Body 1 Regular */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+text-align: center;
+letter-spacing: 0.005em;
+
+/* Light/Text Color/Body 1 */
+
+color: #92929D;
+    }
+    .subscribe-main{
+
+        display: flex;
+        gap: 50px;
+    }
+
+    .subscribe-name h1{
+ /* Body/Body 1 Semibold */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+letter-spacing: 0.005em;
+
+/* Light/Text Color/Title */
+
+color: #11142D;
+    }
+
+    .name {
+        
+        
+        
+        
+margin-top: 10px;
+
+height: 56px;
+width: 296px;
+border-radius: 8px;
+
+/* Background/White */
+
+background: #FFFFFF;
+/* Background/Light Blue */
+
+border: 1px solid #ECF2FE;
+/* padding: 10px;
+ */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+outline: none;
+
+
+    }
+
+    .email{
+        
+        
+        
+        
+        margin-top: 10px;
+        
+        height: 56px;
+        width: 296px;
+        border-radius: 8px;
+        
+        /* Background/White */
+        
+        background: #FFFFFF;
+        /* Background/Light Blue */
+        
+        border: 1px solid #ECF2FE;
+        /* padding: 10px;
+         */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        outline: none;
+        
+        
+            }
+            .subscribe-email h1{
+                /* Body/Body 1 Semibold */
+
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 120%;
+                /* or 19px */
+                
+                letter-spacing: 0.005em;
+                
+                /* Light/Text Color/Title */
+                
+                color: #11142D;
+               
+                   }
+
+                   .subscribe-button{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 24px;
+gap: 10px;
+
+
+width: 128px;
+height: 56px;
+
+/* Light/Primary Color/70% */
+
+background: #FA3C45;
+border-radius: 8px;
+/* Menu/Menu 1 Bold */
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+
+text-align: center;
+letter-spacing: 0.005em;
+
+/* Light/Text Link Color/White */
+
+color: #FFFFFF;
+outline: none;
+text-decoration: none;
+border: none;
+transition: all 2s ease-out;
+                   }
+
+                   .subscribe-button:hover{
+                    transform: scale(0.9);
+                   }
+        
+        
