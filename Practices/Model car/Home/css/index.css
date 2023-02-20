@@ -1459,11 +1459,16 @@ border: 1px solid #ECF2FE;
  justify-content: center;
  align-items: center;
 outline: none;
+padding: 10px;
 
 
     }
 
     .email{
+
+
+        padding: 10px;
+
         
         
         
@@ -1572,6 +1577,8 @@ margin-top: 30px;
 .footer-item{
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
     row-gap: 40px;
 }
 
@@ -1591,6 +1598,7 @@ letter-spacing: 0.008em;
 /* Light/Text Link Color/White */
 
 color: #FFFFFF;
+
 
 }
 .footer-item h3{
@@ -1634,6 +1642,15 @@ color: #FFFFFF;
 
 }
 
+.footer-item-2 a{
+color: #FFFFFF;
+text-decoration: none;
+outline: none;
+border: none;
+cursor: pointer;
+
+}
+
 .footer-item-2 h3{
     display: flex;
     flex-direction: column;
@@ -1654,6 +1671,10 @@ letter-spacing: 0.008em;
 /* Light/Text Link Color/White */
 
 color: #FFFFFF;
+text-decoration: none;
+outline: none;
+border: none;
+cursor: pointer;
 
 
 }
