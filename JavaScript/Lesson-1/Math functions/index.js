@@ -39,8 +39,37 @@
 // const=>ES6 da qoshilgan , qiymatini ozgartirib ham , usha nom bilan yangi ozgaruvchi ham ochib bolnmaydi;
 
 
+
+
+
+
+
+// Numbers Methods
+
+// Number.parseInt=> butun qismini olib beradi va integerga utkazib beradi;
+// let son='12-1;
+// console.log(Number.parseInt(son)); returns 11 
+// let son=10.4;
+// console.log(Number.parseInt(son)); returns 10
+
+// Number.isInteger=>checks if the number is integer or not , and returns true or false
+// let son="12-1";
+// // son=toString();
+// console.log(Number.isInteger(son));  returns false
+
+
+
+
+
+
+
 // Math operators
 
+// var son=10;
+// console.log(son++);  returns 10
+
+// var son =10;
+// console.log(++son);  returns 11
 
 // Decrement
 // let son =5;
@@ -50,10 +79,6 @@
 // son--;
 // son--;
 // console.log(son); returns 1
-
-
-
-
 
 
 //  ++ increments
@@ -68,8 +93,6 @@
 // **(1/2)=finding the root
 // console.log(Math.round(64**(1/3))); returns 4
 // console.log(64**(1/2)); returns 8
-
-
 
 // two stars= power
 // console.log(2**4); Returns 16
