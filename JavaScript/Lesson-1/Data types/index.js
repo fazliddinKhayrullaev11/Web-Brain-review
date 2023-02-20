@@ -1,6 +1,6 @@
 
 arr=[1,2,3,4,5,6,7]
-let myfunf=(n)=>{
+let myfunc=(n)=>{
 for (let i = 0; i < arr.length; i++) {
 if(arr[i]===n){
   console.log('This number is here');
@@ -12,7 +12,7 @@ if(arr[i]===n){
         
              }
                 }
-                 myfunf(8);
+                 myfunc(8);
 
 
 
