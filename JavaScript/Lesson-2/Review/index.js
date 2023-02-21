@@ -21,7 +21,7 @@
 
 
 // console.log(myname());
-// console.log(myname('Fazliddi'));
+// console.log(myname('Fazliddin'));
 
 // function myname(name) {
 //     if (name=='Fazliddin') {
@@ -33,5 +33,17 @@
 //     }
     
 // } returns else condition "This is  not my name MotherFucker!!!"
+
+
+
+
+// console.log(myname());
+
+var myname=function () {
+    var name="Fazliddin";
+    return name
+    
+}
+console.log(myname());
 
 
