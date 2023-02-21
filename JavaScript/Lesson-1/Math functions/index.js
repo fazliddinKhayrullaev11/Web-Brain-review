@@ -27,6 +27,15 @@
 // console.log(p);
 
 
+// Hoisting=kutarish ,  qiymatdan oldin chaqirish, variable ni declarition dan oldin ishlatish
+// faqat var hoisting boladi , lekin faqat declarrtion ni ozini yuqoriga chiqarib beradi , lekin qiymatni ozini olmaydi;
+
+// const g16='Hello g16!';
+
+
+// console.log(g16);
+
+
 
 
 
@@ -46,6 +55,15 @@
 
 // Numbers Methods
 
+
+
+
+
+
+// // NaN=>logical error , Not A Number(NaN), plus holatida NaN qaytarmaydi
+
+// let son ='ME';
+// console.log(son-15);
 
 
 
