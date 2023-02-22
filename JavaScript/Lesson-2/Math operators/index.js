@@ -96,3 +96,17 @@ console.log(Math.floor(8.9)); //returns 8
 
 console.log(Math.ceil(8.1)); //returns 9
 console.log(Math.ceil(8)); //returns 9
+
+console.log(Math.trunc(9.89));  //returns 9  as the same as floor
+
+
+console.log(4=='4') 
+// == - faqat qiymat data type emas;
+//=== - both qiymat and data type
+
+console.log(6>4);
+console.log(6>7);
+console.log(6>=6&&6>9);
+console.log(6>=3);
+
+// && => and , ikkila taraf ham tori bolganda true , agarda bitta xato bolsa ham false qaytaradi
