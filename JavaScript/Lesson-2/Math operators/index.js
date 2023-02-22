@@ -115,5 +115,29 @@ console.log(6>=3);
 
 
 console.log(6!==5||5==6);
+console.log(6==5||5==6);
+console.log(6==5||5==6);
+
+
+
+
+function sort(name) {
+    if (name==='Fazliddin'||name==='Ulugbek'|| name==='Sardor') {
+        console.log('Full-Stack Web Developer');
+        
+    } else if(name==='Azimjon'){
+    console.log('Amazon Developer');}
+    else{
+        console.log('I could not remember you , Motherf*cker...Sorry!');
+    }
+
+    
+}
+
+
+sort('Sardor');
+sort('Fazliddin');
+sort('Azimjon');
+sort('Ulugbek');
 
 
