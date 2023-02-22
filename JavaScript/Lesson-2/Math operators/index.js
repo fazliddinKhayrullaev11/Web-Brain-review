@@ -94,4 +94,5 @@ console.log(Math.floor(8.9)); //returns 8
 
 // Math.ceil=> kasr sonni uzidan bitta katta  songa aylantirib beradi
 
-console.log(Math.ceil(8.1));
+console.log(Math.ceil(8.1)); //returns 9
+console.log(Math.ceil(8)); //returns 9
