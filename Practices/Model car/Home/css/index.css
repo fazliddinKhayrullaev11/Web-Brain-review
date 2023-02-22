@@ -27,7 +27,7 @@ body{
     position: sticky;
     top: 0;
     left: 10px;
-    /* z-index: 999; */
+    z-index: 999;
 }
 
 .navbar-log{
@@ -105,6 +105,8 @@ outline: none;
 .header{
     display: flex;
     flex-direction: column;
+    position: relative;
+    z-index: -1;
 }
 
 
@@ -225,6 +227,8 @@ transition: all 2s linear;
 }
 /* Select Section */
 .select{
+    position: relative;
+    z-index: -1;
     margin-top: 50px;
     /* margin-left: 80px; */
     display: flex;
@@ -232,7 +236,8 @@ transition: all 2s linear;
 }
 
 .brand{
-
+    position: relative;
+    z-index: -1;
 padding: 10px;
 
 width: 464px;
