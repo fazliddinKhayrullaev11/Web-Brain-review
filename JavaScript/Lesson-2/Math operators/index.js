@@ -110,3 +110,10 @@ console.log(6>=6&&6>9);
 console.log(6>=3);
 
 // && => and , ikkila taraf ham tori bolganda true , agarda bitta xato bolsa ham false qaytaradi
+// !== > not 
+//  || = or
+
+
+console.log(6!==5||5==6);
+
+
