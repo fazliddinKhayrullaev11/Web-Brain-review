@@ -53,7 +53,26 @@ console.log(Math.round(8.5));
 console.log(Math.round(8.4));
 
 
+// Math.floor()=>faqat butun qismini olib beradi
+console.log(Math.floor(8.2));
+console.log(Math.floor(8.5));
+console.log(Math.floor(8.7));
 
 
+
+
+
+//Math.ciel()=> onli kasrni, Bitta katta qiymatga kutarib beradi
+console.log(Math.ceil(9.3));
+console.log(Math.ceil(9.7));
+console.log(Math.ceil(9.1));
+console.log(Math.ceil(9.8));
+
+
+
+// Math.trunc()=kasr sonning butun qismini olib beradi
+console.log(Math.trunc(23.1));
+console.log(Math.trunc(23.5));
+console.log(Math.trunc(23.8));
 
 
