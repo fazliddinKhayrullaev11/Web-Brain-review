@@ -119,7 +119,7 @@ oddEven(53);
 
 
 
-// 
+// Compition grades checker
 
 
 function comp(grade) {
@@ -146,3 +146,31 @@ comp(33); //merit
 comp(36); //distinction
 comp(56); // wrong information
 
+
+
+
+// Math.pow()=> darajaga kotarib beradi
+
+console.log(Math.pow(2,4)); //16
+console.log(Math.pow(2,2)); //4
+console.log(Math.pow(2,3));  //8
+
+
+
+
+//Math.sqrt() => ildiz ostidan chiqarish
+console.log(Math.sqrt(64));  //8
+console.log(Math.sqrt(49)); //7
+console.log(Math.sqrt(36)); //6
+
+console.log(Math.sqrt(91));  //9.539
+
+
+
+//Math.random () => random son , default 0 dann 1gacha
+console.log(Math.random());
+
+
+//Math.abs()=> absolute qiymat , faqat positive
+console.log(Math.abs(-91));
+console.log(Math.abs(91));
