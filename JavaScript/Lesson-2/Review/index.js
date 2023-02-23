@@ -116,3 +116,33 @@ function oddEven(num) {
 }
 
 oddEven(53);
+
+
+
+// 
+
+
+function comp(grade) {
+    if (grade<20) {
+        console.log('Failed');
+        
+    }
+     else if (grade>20&& grade<30){
+        console.log('passed');
+     }
+    else if(grade>30&&grade<35){
+        console.log('Merit');
+    } else if(grade>35&&grade<40){
+        console.log('Distinction');
+    } else{
+        console.log('wrong information!!!');
+    }
+}
+
+
+comp(19); // failed
+comp(21);//passed
+comp(33); //merit
+comp(36); //distinction
+comp(56); // wrong information
+
