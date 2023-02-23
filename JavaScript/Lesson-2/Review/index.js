@@ -102,20 +102,24 @@ result&&console.log('Hol meva');
 
 function oddEven(num) {
 
-    if (num%2==0) {
+    if (num%2==0&&num!==0) {
         console.log('Even number');
         
     } else if(num%2==1) {
          console.log('Odd number');
 
+    } else if(num==0){
+        console.log('this is null');
+
     }
-     else{
-        console.log('Odd number');
-     }
+    //  else{
+    //     console.log('Odd number');
+    //  }
     
 }
 
 oddEven(53);
+oddEven(0);
 
 
 
