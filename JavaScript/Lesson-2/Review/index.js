@@ -46,4 +46,8 @@ var myname=function () {
 }
 console.log(myname());
 
+console.log(6==6||5==6&&5==5);
+
+
+
 
