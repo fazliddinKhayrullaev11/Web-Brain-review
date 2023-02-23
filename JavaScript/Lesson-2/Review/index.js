@@ -84,4 +84,15 @@ var meva='olma'
 
  meva=='olma'&&console.log('Meva bor');
 
+//  ! (not) =emas
+
+console.log(!false);
+console.log(!true);
+
+
+
+var result=meva=='olma'||meva=='nok';
+result&&console.log('Hol meva');
+
+// 
 
