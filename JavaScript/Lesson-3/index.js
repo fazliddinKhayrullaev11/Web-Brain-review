@@ -34,3 +34,9 @@ I will fuck fou!!
 console.log(str);
 console.log(str.length);
 
+
+var sur_name='Messi';
+var name='Leo';
+var myn=`My name is :${name} ${sur_name} `
+console.log(myn);
+
