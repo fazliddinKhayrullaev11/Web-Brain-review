@@ -45,8 +45,14 @@ var myname=function () {
     
 }
 console.log(myname());
+//Math.round()=>yaxlitlab beradi
 
 console.log(6==6||5==6&&5==5);
+console.log(Math.round(8.9));
+console.log(Math.round(8.5));
+console.log(Math.round(8.4));
+
+
 
 
 
