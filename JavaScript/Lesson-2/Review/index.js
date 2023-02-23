@@ -75,4 +75,13 @@ console.log(Math.trunc(23.1));
 console.log(Math.trunc(23.5));
 console.log(Math.trunc(23.8));
 
+// ==
+
+
+
+// && and  , ikkita xolat teng bolganda ishlaydi
+var meva='olma'
+
+ meva=='olma'&&console.log('Meva bor');
+
 
