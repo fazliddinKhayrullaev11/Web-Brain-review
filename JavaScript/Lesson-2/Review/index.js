@@ -96,3 +96,23 @@ result&&console.log('Hol meva');
 
 // 
 
+
+// finding odd or even
+
+
+function oddEven(num) {
+
+    if (num%2==0) {
+        console.log('Even number');
+        
+    } else if(num%2==1) {
+         console.log('Odd number');
+
+    }
+     else{
+        console.log('Odd number');
+     }
+    
+}
+
+oddEven(53);
