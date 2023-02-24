@@ -30,10 +30,10 @@ console.log(str.trim().toLowerCase().endsWith('l'));
 console.log('endWith() .below');
 
 function endsWith(value) {
-    if (str.trim().toLowerCase().endsWith(value)) {
+    if (str.trim().toLowerCase()[str.trim().length-1]==value) {
         console.log(true);
         
-    } else if (str.trim().toLowerCase().endsWith(value)){
+    } else if (str.trim().toUpperCase()[str.trim().length-1]==value){
         console.log(true);
     }
      else{
@@ -47,5 +47,28 @@ endsWith('d')
 console.log(str.trim().toLowerCase()[str.trim().length-1]=='l');
 
 
+// var numb=12;
+// console.log(numb.toLocaleString().padStart([numb.length-value],value));
+function numbertoString(num){
+    return num.toString()+''
+   
+}
+    console.log(numbertoString(12))
+ 
 
 
+    function solution(number){
+
+
+
+        // var str=number.toString();
+        // var arr=str.reduce();
+        // var temp = ''+number;
+        // var arr = [...temp].reduce((acc, n)=> acc.concat(+n), [] );
+     for (let i = 0; i <= arr.length; i++) {
+            
+     }
+    
+            
+        }
+        console.log(solution(10));
