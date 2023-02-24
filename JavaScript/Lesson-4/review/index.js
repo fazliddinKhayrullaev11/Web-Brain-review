@@ -24,6 +24,26 @@ console.log(mname);
 
 console.log(mname.trim().toLowerCase().includes('a')||mname.toUpperCase().includes('k')); //true
 
+var str='  fozil   ';
+
+console.log(str.trim().toLowerCase().endsWith('l'));
+console.log('endWith() .below');
+
+function endsWith(value) {
+    if (str.trim().toLowerCase().endsWith(value)) {
+        console.log(true);
+        
+    } else if (str.trim().toLowerCase().endsWith(value)){
+        console.log(true);
+    }
+     else{
+        console.log(false);
+     }
+}
+
+endsWith('d')
+
+
 
 
 
