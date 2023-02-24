@@ -22,7 +22,7 @@ console.log(mname.startsWith('F')); //true
 console.log(mname.startsWith('a')); //false
 console.log(mname);
 
-console.log(mname.trim().toLowerCase().includes('F')||mname.toUpperCase().includes('F')); //true
+console.log(mname.trim().toLowerCase().includes('a')||mname.toUpperCase().includes('k')); //true
 
 
 
