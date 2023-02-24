@@ -1,7 +1,9 @@
 
 
 
-var name='Fazliddin';
+var mname='Fazliddin';
 
 
-console.log(name.slice(0,5));  //Fazli
+console.log(mname.slice(0,5));  //Fazli
+
+console.log(mname.indexOf('i')); //4
