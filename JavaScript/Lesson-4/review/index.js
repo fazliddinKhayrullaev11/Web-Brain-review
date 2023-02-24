@@ -3,7 +3,7 @@
 
 
 
-var mname='Fazliddin';
+var mname='Fazliddin         ';
 var sname='Khayrullaev';
 
 
@@ -20,6 +20,9 @@ console.log(mname.padEnd(12,'u')); //Fazliddinuuu
 console.log(mname.includes('Faz')); //true
 console.log(mname.startsWith('F')); //true
 console.log(mname.startsWith('a')); //false
+console.log(mname);
+
+console.log(mname.trim().toLowerCase().includes('F')||mname.toUpperCase().includes('F')); //true
 
 
 
