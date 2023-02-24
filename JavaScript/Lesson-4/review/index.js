@@ -44,6 +44,8 @@ function endsWith(value) {
 endsWith('d')
 
 
+console.log(str.trim().toLowerCase()[str.trim().length-1]=='l');
+
 
 
 
