@@ -30,3 +30,21 @@ function statuss(number) {
  }
 
  ceil(122.1)
+
+
+ function abs(num) {
+    num>0&&console.log(num);
+    num<0&&console.log(num*(-1));
+    
+ }
+
+ abs(-4)
+
+ function round(num) {
+
+    num>=parseInt(num)+0.5&&console.log(parseInt(num)+1);
+    num< parseInt(num)+0.5&&console.log(parseInt(num));
+    
+ }
+
+ round(4.5)
