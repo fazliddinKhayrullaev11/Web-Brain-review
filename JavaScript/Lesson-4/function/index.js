@@ -35,3 +35,11 @@ person();
 
 
 
+
+
+function pow(number, degree) {
+    console.log(Math.pow(number, degree));
+    
+}
+
+pow(2,3)
