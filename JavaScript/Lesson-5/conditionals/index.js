@@ -48,3 +48,10 @@ function statuss(number) {
  }
 
  round(4.5)
+
+ var num=19;
+ var str='olma';
+
+str='olma' ? console.log("qimmat") :console.log('arzon');
+
+num%2==0 ?console.log('Even') : console.log('Odd');
