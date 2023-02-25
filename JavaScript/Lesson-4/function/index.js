@@ -10,7 +10,7 @@ function func() {
 }
 console.log(func());
 
- const myFunction=()=> console.log('Fazliddin , do you  have IELTS?');
+ const myFunction=(name ,phone)=> console.log(`Hello ${name} , do you  have IELTS? , your number is ${phone}`);
  
 
- myFunction();
+ myFunction('Fazliddin' ,'+99899.948.37.79');
