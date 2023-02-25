@@ -56,3 +56,23 @@ evenOdd(8)
 evenOdd(9)
 evenOdd(-1)
 evenOdd(-2)
+evenOdd(-3)
+
+
+function EvenOdd(num) {
+    if (num%2==0) {
+        console.log("Even");
+        
+    } else if(num==0){
+        console.log('zero');
+
+    }
+    else if (num%2==1){
+        console.log('Odd');
+    }
+  
+    
+}
+EvenOdd(12)
+EvenOdd(15)
+EvenOdd(40)
