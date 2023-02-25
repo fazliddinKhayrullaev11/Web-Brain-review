@@ -19,9 +19,9 @@ console.log(func());
 
  let str= 'IUGWlsjljqw89ey39y13';
 
- console.log(str.match(/[0-9]/g));
- console.log(str.match(/[a-z]/g));
- console.log(str.match(/[A-Z]/g));
+ console.log(str.match(/[0-9]/g).join(''));
+ console.log(str.match(/[a-z]/g).join(''));
+ console.log(str.match(/[A-Z]/g).join(''));
 
 
 
@@ -42,4 +42,14 @@ function pow(number, degree) {
     
 }
 
-pow(2,3)
+pow(2,3) //8
+
+
+
+
+function sqrt(number ) {
+    
+    console.log(number**0.5);
+}
+
+sqrt(64) ; //8
