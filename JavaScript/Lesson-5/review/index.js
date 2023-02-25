@@ -31,3 +31,28 @@ function hoisting() {
     console.log("hellow");
     
 }
+
+
+//even odd
+
+function evenOdd(num) {
+    num==0&&console.log('this is zero');
+    num%2==0&&console.log('Even number');
+    num%2==1&&console.log('Odd number');
+    
+}
+
+
+console.log("Even odd lists below here: ");
+evenOdd(0)
+evenOdd(1)
+evenOdd(2)
+evenOdd(3)
+evenOdd(4)
+evenOdd(5)
+evenOdd(6)
+evenOdd(7)
+evenOdd(8)
+evenOdd(9)
+evenOdd(-1)
+evenOdd(-2)
