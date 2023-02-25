@@ -53,3 +53,12 @@ function sqrt(number ) {
 }
 
 sqrt(64) ; //8
+
+//match =>regex da foydalanish uchun method , array qaytaradi;
+//match(/[a-z]/g) => a-z gacha kichikina harflarni olib beradi;
+//match(/[A-Z]/g)=> A-Z gacha katta harflarni olib beradi
+
+//match(/[0-9]/g) =>0-9 gacha raqamlarni olib beradi;
+//join()=> array methodi , string qaytaradi;
+
+
